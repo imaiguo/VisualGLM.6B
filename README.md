@@ -1,6 +1,8 @@
 
 # VisualGLM-6B
 
+可以对图片进行分析并文字输出
+
 ## Windows环境部署
 
  准备独立的python环境
@@ -61,7 +63,7 @@ python环境切换
 ```bash
 > pip install -r requirements.txt
 > pip install gradio
-> pip install pyreadline3 
+> pip install pyreadline3
 > pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 > pip install -i https://pypi.tuna.tsinghua.edu.cn/simple transformers==4.33.2
 ```

@@ -21,9 +21,9 @@ model = AutoModel.from_pretrained(MODEL_PATH, trust_remote_code=True).quantize(8
 
 model = model.eval()
 
-image_path = "./examples/1.jpeg"
+image_path = "./examples/100.jpg"
 
-response, history = model.chat(tokenizer, image_path, "描述这张图片。", history=[])
+response, history = model.chat(tokenizer, image_path, "你看到了什么", history=[])
 print("ansower 1:" + response)
 print(response)
 
